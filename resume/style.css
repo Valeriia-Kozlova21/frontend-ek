@@ -1,0 +1,20 @@
+.p1{
+    color: rgb(25, 105, 129);
+}
+.p2{
+    font: bold italic 16px 'Times New Roman';
+}
+.p3{
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+.p4{
+    color: rgb(2, 97, 104);
+    font-weight: bold; //плотность (жирный)
+}
+.p5{
+    font-variant: small-caps; //малые заглавные буквы (каптиль)
+}
+.p6{
+    font: bold italic 26px Arial; //указание показателей в одном свойстве
+}
