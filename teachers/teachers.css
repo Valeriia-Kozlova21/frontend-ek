@@ -1,0 +1,70 @@
+.head{
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    background: rgb(145, 112, 74);
+}
+.h1{
+    margin: auto;
+}
+.teacher{
+    display: inline-block;
+    width: 250px;
+}
+.teacher img{
+    height: 200px;
+    width: 150px;
+}
+.p1{
+    font: 24px Amatic SC;
+}
+.d{
+    height: 200px;
+    width: 150px;
+    border-radius:10px;
+    border:5px solid transparent;
+    background: rgba(255, 255, 255, 0);
+}
+.d:hover{
+    border:5px solid;
+    background: rgb(0, 0, 0) ;
+}
+input:focus{
+    background: rgb(221, 221, 221);
+}
+.book::first-letter {
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(226, 85, 85);
+    font-size: 20px;
+  }
+
+.book::selection{
+    background: rgb(145, 112, 74);
+    color:black;
+  }
+.wrapper {
+    width: 80%;
+    font-size: 15px;
+    color: #fff;
+    background: rgb(84, 85, 83);
+  }
+.m{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+@media (min-width: 480px) {
+    .m {
+        width: 6em;
+    }
+}
+@media (min-width: 960px) {
+    .m {
+        width: 40em;
+    }
+}
+@media (min-width: 1200px) {
+    .m {
+        width: 50em;
+    }
+}
+
