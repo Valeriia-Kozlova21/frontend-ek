@@ -1,0 +1,154 @@
+.res {
+    box-sizing: border-box;
+    display: block;
+}
+.container {
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: auto;
+}
+.wrapper {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.left {
+    width: 474px;
+    background-color: #f3f4f5;
+    font-size: 16px;
+    color: #363636;
+}
+.right {
+    background-color: #ffffff;
+    color: #707070;
+    width: 726x;
+}
+.headerLogo{
+    display: block;
+    width: 474px;
+}
+.headerLogo_block {
+    width: 258px;
+    height: 258px;
+    background-image: url(img/resume.jpg);
+    background-size: cover;
+    border: 21px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top: 142px;
+    left: 137px;
+
+}
+.circle {
+    background: #f0ae12;
+    border-radius: 50%;
+    color: #f0ae12;
+    height: 380px;
+    position: relative;
+    width: 380px;
+    top: -71px;
+    left: -82px;
+}
+.circle_2 {
+    background: #f0ad126b;
+    border-radius: 50%;
+    color: #f0ad126b;
+    height: 136px;
+    width: 136px;
+    position: relative;
+    top: -143px;
+    left: 378px;
+}
+.circle_3 {
+    background: #f0ae12;
+    border-radius: 50%;
+    color: #f0ae12;
+    height: 13px;
+    width: 13px;
+    position: relative;
+    top: 7px;
+    left: 15px;
+    margin-right: 10px;
+}
+.circle_4 {
+    background: #e1e1e1;
+    border-radius: 50%;
+    color: #e1e1e1;
+    height: 13px;
+    width: 13px;
+    position: relative;
+    top: 7px;
+    left: 15px;
+    margin-right: 10px;
+}
+.contacts{
+    display: flex;
+    height: 20px;
+    margin: 20px;
+    font-size: 16px;
+    border: 3px solid #f0ae12;
+    border-radius: 20px;
+}
+.social_media{
+    display: flex;
+    height: 20px;
+    margin: 20px;
+    font-size: 16px;
+}
+.skill {
+    display: flex;
+    margin-bottom: 10px;
+}
+.skill_d {
+    display: flex;
+    justify-content: space-around;
+}
+.qua{
+    display: flex;
+    height: 20px;
+    margin: 20px;
+}
+.hob {
+    display: flex;
+    height: 30px;
+    margin-right: -400px;
+}
+.hobbies_w {
+    display: flex;
+}
+/*шрифты*/
+
+.head2 {
+    font-size: 31px;
+    color: #363636;
+}
+.headerName {
+    margin-left: 20px;
+}
+.headerName3 {
+    display: flex;
+    font-size: 40px;
+    color: #363636;
+}
+.headerName2 {
+    color: #f0ae12;
+}
+.h3 {
+    color: #464646;
+    font-size: 24px;
+}
+.yellow {
+    display: flex;
+    background: #f0ae12;
+    border-radius: 14px;
+    width: 92px;
+    padding-left: 5px;
+}
+.left_block {
+    margin-left: 40px;
+}
+.right_block {
+    margin-left: 40px;
+}
