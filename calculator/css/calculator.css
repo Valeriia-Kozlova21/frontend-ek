@@ -1,0 +1,30 @@
+
+.wrapper{
+    margin:0 auto;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.i{
+    display: flex;
+    justify-content: center;
+}
+
+.blocks {
+    display: flex;
+
+}
+.w {
+    border:teal solid;
+    border-radius: 50px;
+    border-radius: 10px;
+}
+.but {
+    width: 200px;
+    display: block;
+    margin: auto;
+    background-color: teal;
+    border-radius: 50px;
+}
