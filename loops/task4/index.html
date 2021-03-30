@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h3>В банк положили 100 долларов под 5 % годовых. Составить программу вычисления количества денег на счету через 10 лет.</h3>
+        <div class="main_block">
+            <div>
+                <p>T (количество периодов): </p>
+                <input type="text" id="in1" value="10">
+            </div>
+            <div>
+                <p>i (процентная ставка): </p>
+                <input type="text" id="in2" value="5">
+            </div>
+            <div>
+                <p>P (вкладываемая сумма): </p>
+                <input type="text" id="in3" value="100">
+            </div>
+        </div>
+        <div class="button">
+            <button id="btn">Получить результат</button>
+        </div>
+        <p id="answer"></p>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
